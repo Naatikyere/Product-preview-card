@@ -18,7 +18,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Naatikyere/Product-preview-card.git)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -52,8 +52,8 @@ And would work using frame works like react also.
 ## Author
 
 - Website - [Naati-kyere Dome Prosper](https://www.your-site.com)
-- Frontend Mentor - [@prosperKing](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@prosperking7](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@prosperKing](https://www.frontendmentor.io/profile/prosperking)
+- Twitter - [@prosperking7](https://www.twitter.com/prosperking7)
 
 
 ## Acknowledgments

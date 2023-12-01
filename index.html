@@ -12,6 +12,11 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    * {
+      box-sizing: content-box;
+      margin: 0;
+      padding: 0;
+}
     .container{
       background-color: hsl(30, 38%, 92%);
       display: flex;
@@ -26,14 +31,15 @@
     }
     .main{
       display: flex;
-      width: 600px;
+      width: 40%;
+     
       align-self: center;
       background-color: azure;
       border-radius: 10px;
       overflow: hidden;
       margin-bottom: 0.6em;
     }
-    .img{
+    .imgmain{
       width: 100%;
       height: 100%;
     }
@@ -98,14 +104,17 @@
       border-radius: 0.33em;
       margin-top: 1.5em;
     }
-    @media screen(width:375px;) {
+    @media screen and (max-width:375px){
       .main{
       flex-direction: column;
       margin-bottom: 0.3em;
     }
-      .img{
+      .imgmain{
         display: none;
 
+      }
+      .buy{
+        margin: 0;
       }
     
     }
@@ -116,7 +125,7 @@
   <div class="container">
     <div class="main">
     <div class="W_product">
-    <img src="images/image-product-desktop.jpg" alt="product Image" class="img">
+    <img src="images/image-product-desktop.jpg" alt="product Image" class="imgmain">
     </div>
     
     <div class="img_info">
